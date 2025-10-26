@@ -104,11 +104,4 @@ $ dotnet run --project SpendingPilot.Web
 - Test project scaffolded: `SpendingPilot.Tests`
 - Add tests for import service, rules engine, and controllers
 
-## Contributing
 
-- Use feature branches and PRs
-- Keep migrations in `SpendingPilot.Web/Data/AppMigrations` for AppDbContext and `SpendingPilot.Web/Data/Migrations` for Identity
-
-## License
-
-MIT (or your preferred license)
