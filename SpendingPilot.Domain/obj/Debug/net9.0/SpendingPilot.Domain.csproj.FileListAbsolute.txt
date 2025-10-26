@@ -1,0 +1,11 @@
+/Users/marwansalama/CascadeProjects/SpendingPilot/SpendingPilot.Domain/bin/Debug/net9.0/SpendingPilot.Domain.deps.json
+/Users/marwansalama/CascadeProjects/SpendingPilot/SpendingPilot.Domain/bin/Debug/net9.0/SpendingPilot.Domain.dll
+/Users/marwansalama/CascadeProjects/SpendingPilot/SpendingPilot.Domain/bin/Debug/net9.0/SpendingPilot.Domain.pdb
+/Users/marwansalama/CascadeProjects/SpendingPilot/SpendingPilot.Domain/obj/Debug/net9.0/SpendingPilot.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marwansalama/CascadeProjects/SpendingPilot/SpendingPilot.Domain/obj/Debug/net9.0/SpendingPilot.Domain.AssemblyInfoInputs.cache
+/Users/marwansalama/CascadeProjects/SpendingPilot/SpendingPilot.Domain/obj/Debug/net9.0/SpendingPilot.Domain.AssemblyInfo.cs
+/Users/marwansalama/CascadeProjects/SpendingPilot/SpendingPilot.Domain/obj/Debug/net9.0/SpendingPilot.Domain.csproj.CoreCompileInputs.cache
+/Users/marwansalama/CascadeProjects/SpendingPilot/SpendingPilot.Domain/obj/Debug/net9.0/SpendingPilot.Domain.dll
+/Users/marwansalama/CascadeProjects/SpendingPilot/SpendingPilot.Domain/obj/Debug/net9.0/refint/SpendingPilot.Domain.dll
+/Users/marwansalama/CascadeProjects/SpendingPilot/SpendingPilot.Domain/obj/Debug/net9.0/SpendingPilot.Domain.pdb
+/Users/marwansalama/CascadeProjects/SpendingPilot/SpendingPilot.Domain/obj/Debug/net9.0/ref/SpendingPilot.Domain.dll

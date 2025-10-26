@@ -1,0 +1,17 @@
+/Users/marwansalama/CascadeProjects/SpendingPilot/SpendingPilot.Infrastructure/bin/Debug/net9.0/SpendingPilot.Infrastructure.deps.json
+/Users/marwansalama/CascadeProjects/SpendingPilot/SpendingPilot.Infrastructure/bin/Debug/net9.0/SpendingPilot.Infrastructure.runtimeconfig.json
+/Users/marwansalama/CascadeProjects/SpendingPilot/SpendingPilot.Infrastructure/bin/Debug/net9.0/SpendingPilot.Infrastructure.dll
+/Users/marwansalama/CascadeProjects/SpendingPilot/SpendingPilot.Infrastructure/bin/Debug/net9.0/SpendingPilot.Infrastructure.pdb
+/Users/marwansalama/CascadeProjects/SpendingPilot/SpendingPilot.Infrastructure/bin/Debug/net9.0/SpendingPilot.Domain.dll
+/Users/marwansalama/CascadeProjects/SpendingPilot/SpendingPilot.Infrastructure/bin/Debug/net9.0/SpendingPilot.Domain.pdb
+/Users/marwansalama/CascadeProjects/SpendingPilot/SpendingPilot.Infrastructure/obj/Debug/net9.0/SpendingPilot.Infrastructure.csproj.AssemblyReference.cache
+/Users/marwansalama/CascadeProjects/SpendingPilot/SpendingPilot.Infrastructure/obj/Debug/net9.0/SpendingPilot.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marwansalama/CascadeProjects/SpendingPilot/SpendingPilot.Infrastructure/obj/Debug/net9.0/SpendingPilot.Infrastructure.AssemblyInfoInputs.cache
+/Users/marwansalama/CascadeProjects/SpendingPilot/SpendingPilot.Infrastructure/obj/Debug/net9.0/SpendingPilot.Infrastructure.AssemblyInfo.cs
+/Users/marwansalama/CascadeProjects/SpendingPilot/SpendingPilot.Infrastructure/obj/Debug/net9.0/SpendingPilot.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/marwansalama/CascadeProjects/SpendingPilot/SpendingPilot.Infrastructure/obj/Debug/net9.0/Spending.E044E9A6.Up2Date
+/Users/marwansalama/CascadeProjects/SpendingPilot/SpendingPilot.Infrastructure/obj/Debug/net9.0/SpendingPilot.Infrastructure.dll
+/Users/marwansalama/CascadeProjects/SpendingPilot/SpendingPilot.Infrastructure/obj/Debug/net9.0/refint/SpendingPilot.Infrastructure.dll
+/Users/marwansalama/CascadeProjects/SpendingPilot/SpendingPilot.Infrastructure/obj/Debug/net9.0/SpendingPilot.Infrastructure.pdb
+/Users/marwansalama/CascadeProjects/SpendingPilot/SpendingPilot.Infrastructure/obj/Debug/net9.0/SpendingPilot.Infrastructure.genruntimeconfig.cache
+/Users/marwansalama/CascadeProjects/SpendingPilot/SpendingPilot.Infrastructure/obj/Debug/net9.0/ref/SpendingPilot.Infrastructure.dll
