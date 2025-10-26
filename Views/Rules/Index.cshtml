@@ -1,0 +1,36 @@
+@model IEnumerable<SpendingPilot.Domain.Entities.Rule>
+@{
+    ViewData["Title"] = "Rules";
+}
+<h2>Rules</h2>
+<p>
+    <a class="btn btn-primary" href="@Url.Action("Create")">New Rule</a>
+</p>
+<table class="table table-sm table-striped">
+  <thead>
+    <tr>
+      <th>Priority</th>
+      <th>Type</th>
+      <th>Pattern</th>
+      <th>Category</th>
+      <th>Active</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+  @foreach (var r in Model)
+  {
+    <tr>
+      <td>@r.Priority</td>
+      <td>@r.PatternType</td>
+      <td>@r.Pattern</td>
+      <td>@r.Category?.Name</td>
+      <td>@(r.IsActive ? "Yes" : "No")</td>
+      <td>
+        <a class="btn btn-sm btn-outline-secondary" href="@Url.Action("Edit", new { id = r.Id })">Edit</a>
+        <a class="btn btn-sm btn-outline-danger" href="@Url.Action("Delete", new { id = r.Id })">Delete</a>
+      </td>
+    </tr>
+  }
+  </tbody>
+</table>

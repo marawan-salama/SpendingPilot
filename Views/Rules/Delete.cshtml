@@ -1,0 +1,16 @@
+@model SpendingPilot.Domain.Entities.Rule
+@{
+    ViewData["Title"] = "Delete Rule";
+}
+<h2>Delete Rule</h2>
+<div class="alert alert-warning">Are you sure you want to delete this rule with priority <strong>@Model.Priority</strong>?</div>
+<dl class="row">
+  <dt class="col-sm-2">Type</dt><dd class="col-sm-10">@Model.PatternType</dd>
+  <dt class="col-sm-2">Pattern</dt><dd class="col-sm-10">@Model.Pattern</dd>
+  <dt class="col-sm-2">Category</dt><dd class="col-sm-10">@Model.CategoryId</dd>
+</dl>
+<form asp-action="Delete" method="post">
+  <input type="hidden" asp-for="Id" />
+  <button class="btn btn-danger" type="submit">Delete</button>
+  <a class="btn btn-secondary" href="@Url.Action("Index")">Cancel</a>
+</form>

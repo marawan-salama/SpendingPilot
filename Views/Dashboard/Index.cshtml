@@ -1,0 +1,38 @@
+@{
+    ViewData["Title"] = "Dashboard";
+    var spendLabels = (IEnumerable<string>) (ViewBag.SpendLabels ?? new List<string>());
+    var spendData = (IEnumerable<decimal>) (ViewBag.SpendData ?? new List<decimal>());
+    var trendLabels = (IEnumerable<string>) (ViewBag.TrendLabels ?? new List<string>());
+    var trendData = (IEnumerable<decimal>) (ViewBag.TrendData ?? new List<decimal>());
+}
+<h2>Dashboard</h2>
+<div class="row">
+  <div class="col-md-6">
+    <h5>Spend by Category (this month)</h5>
+    <canvas id="pie"></canvas>
+  </div>
+  <div class="col-md-6">
+    <h5>Monthly Spend (last 6 months)</h5>
+    <canvas id="line"></canvas>
+  </div>
+</div>
+@section Scripts {
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    const spendLabels = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(spendLabels));
+    const spendData = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(spendData));
+    const trendLabels = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(trendLabels));
+    const trendData = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(trendData));
+
+    new Chart(document.getElementById('pie'), {
+      type: 'pie',
+      data: { labels: spendLabels, datasets: [{ data: spendData }] },
+    });
+
+    new Chart(document.getElementById('line'), {
+      type: 'line',
+      data: { labels: trendLabels, datasets: [{ data: trendData, label: 'Spend', fill: false, borderColor: '#0d6efd' }] },
+      options: { scales: { y: { beginAtZero: true } } }
+    });
+  </script>
+}

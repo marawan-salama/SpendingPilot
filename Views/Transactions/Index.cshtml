@@ -1,0 +1,36 @@
+@model IEnumerable<SpendingPilot.Domain.Entities.Transaction>
+@{
+    ViewData["Title"] = "Transactions";
+}
+
+<h2>Transactions</h2>
+<p>
+    <a class="btn btn-primary" href="@Url.Action("Upload")">Upload CSV</a>
+</p>
+@if (TempData["Message"] is string msg)
+{
+    <div class="alert alert-success">@msg</div>
+}
+<table class="table table-sm table-striped">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Description</th>
+            <th>Merchant</th>
+            <th>Amount</th>
+            <th>Category</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var t in Model)
+        {
+            <tr>
+                <td>@t.PostedAt.ToString("yyyy-MM-dd")</td>
+                <td>@t.Description</td>
+                <td>@t.Merchant</td>
+                <td class="@(t.Amount < 0 ? "text-danger" : "text-success")">@t.Amount.ToString("C")</td>
+                <td>@t.CategoryId</td>
+            </tr>
+        }
+    </tbody>
+</table>

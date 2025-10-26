@@ -1,0 +1,18 @@
+@model SpendingPilot.Domain.Entities.Category
+@{
+    ViewData["Title"] = "New Category";
+}
+<h2>New Category</h2>
+<form asp-action="Create" method="post" class="mt-3">
+  <div class="mb-3">
+    <label asp-for="Name" class="form-label"></label>
+    <input asp-for="Name" class="form-control" />
+    <span asp-validation-for="Name" class="text-danger"></span>
+  </div>
+  <div class="mb-3">
+    <label asp-for="Type" class="form-label"></label>
+    <select asp-for="Type" class="form-select" asp-items="Html.GetEnumSelectList<SpendingPilot.Domain.Entities.CategoryType>()"></select>
+  </div>
+  <button class="btn btn-primary" type="submit">Save</button>
+  <a class="btn btn-secondary" href="@Url.Action("Index")">Cancel</a>
+</form>
